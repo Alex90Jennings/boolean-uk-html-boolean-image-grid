@@ -7,17 +7,16 @@
 }
 main {
     background-color: white;
-    padding-top: 40px;
 }
 .center-wrapper { 
     max-width: 1700px;
-    padding-right: 12px;
-    padding-left: 12px;
+    padding: 40px 12px;
     margin: 0 auto;
 }
 .header-footer { 
     height: 80px;
     background-color: rgb(1, 20, 52);
+    padding: 5px;
 }
 .responsive-columns {
     display: grid;
@@ -29,6 +28,7 @@ main {
     border: 1px black solid;
     border-radius: 1%;
     background-color: white;
+    width: 400px;
 }
 .card-grid {
     display: grid;
@@ -47,8 +47,8 @@ main {
     right: 10px;
 }
 .boolean-laptop {
-    width: 380px;
-    border-radius: 1% 0px 0px;
+    max-width: 100%;
+    border-radius: 1% 0 0;
 }
 .logos {
     display: grid;
@@ -70,4 +70,12 @@ main {
     padding: 0px 15px;
     font-size: 18px;
     margin-bottom: 20px;
+}
+.hero-page {
+    height: 100vh;
+    width: 100vw;
+}
+.hero {
+    max-width: 100%;
+    height: auto;
 }
